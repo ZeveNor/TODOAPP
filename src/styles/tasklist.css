@@ -1,0 +1,146 @@
+.task-list {
+  background-color: #fff;
+  border-top: solid 1px rgb(247, 239, 239);
+  border-left: solid 1px rgb(247, 239, 239);
+  border-right: dotted 1px gray;
+  border-bottom: solid 1px gray;
+  border-radius: 1rem;
+  height: auto;
+  margin-top: -10rem;
+  padding: 70px 70px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1% 0 0 0;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  background: #fff;
+  font-size: 20px;
+  position: relative;
+}
+
+input {
+  flex: 1;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+button {
+  font-weight: 600;
+  border-radius: 8px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  transition: filter 0.2s;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #442a2a38;
+  padding: 1rem 0;
+}
+
+.non-topic {
+  font-size: 15px;
+  color: red;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.details {
+  margin-top: 1%;
+  margin-left: 1rem;
+  width: 100%;
+  color: rgba(70, 46, 46, 0.726);
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 14px;
+  margin-bottom: 18px;
+}
+
+.color-tag {
+  border-left: rgb(238, 236, 236) 4px solid;
+  border-right: rgb(238, 236, 236) 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
+
+.yellow {
+  border-left: yellow 4px solid;
+  border-right: yellow 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
+
+.orange {
+  border-left: orange 4px solid;
+  border-right: orange 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
+
+.red {
+  border-left: red 4px solid;
+  border-right: red 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
+.blue {
+  border-left: blue 4px solid;
+  border-right: blue 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
+.white {
+  border-left: rgb(238, 236, 236) 4px solid;
+  border-right: rgb(238, 236, 236) 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
+
+.purple {
+  border-left: purple 4px solid;
+  border-right: purple 2px solid;
+  margin: 1% 2% 0 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 15px;
+}
